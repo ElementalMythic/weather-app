@@ -4,20 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WeatherPro</title>
     <!-- Link Sytle Sheet -->
 </head>
 
 <!-- Make H1 with site name -->
 
+<header>  
+
+    <h1> WeatherPro</h1>
+
+    <h3> The #1 Weather App On The Worldwide Web! </h3>
+
+</header>
+
 <body>
     <!-- Add Search Area -->
-    
-    <!-- Add History Area -->
 
-    <!-- Add Section For Weather Information -->
+    <div class = "body-style">
 
-    <!-- Use Div Tags -->
+
+        <div class = "navigation">
+
+            <form class = "search-section">
+
+                <h2> Search </h2>
+
+                <input type="text" class = "city" name = "city">
+
+                <button class = "sumbit" type = "submit"> Search </button>
+
+                <!-- Make Search Run The Function That Gathers The Data Needed -->
+
+                <div class = "history"></div>
+
+            </form>
+
+        </div>
+
+        <div class = "weather-values">
+
+                <div class = "forecast">
+
+                <h3 class = "city">City Name</h3>
+
+                <h4 class = "currenttemp">Current Tempature</h4>
+
+                <h5 class = "date">Today's Date</h5>
+
+                <p class = "feelslike">Feels Like</p>
+
+                <p class = "hightemp">High</p>
+
+                <p class = "lowtemp">Low</p>
+
+                <p class = "windspeed">Wind Speed</p>
+
+                <p class = "humidity">Humidity</p>
+
+            </div>
+
+        </div>
+
+        <div>
+        
+            <h3> Your 5 Day Outlook </h3>
+
+            <div class = "forecast"></div>
+
+            <!-- Display Forecast -->
+
+        </div>
+
+    </div>
+
 </body>
 
 <!-- Link API and JavaScript Here -->

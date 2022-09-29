@@ -17,9 +17,15 @@ THEN I am again presented with current and future conditions for that city
 
 // To - Do List
 
+var userhistory = []
+
+
+
 // connect api 
 
 // make sure that html loads a page containing the date and weather
+
+
 
 // add history area
 
