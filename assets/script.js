@@ -15,3 +15,17 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 */
 
+// To - Do List
+
+// connect api 
+
+// make sure that html loads a page containing the date and weather
+
+// add history area
+
+// make function that shows the weather for the city the user adds
+
+// make function to display the forecast that lasts 5 days
+
+// connect cordinates to citys
+
