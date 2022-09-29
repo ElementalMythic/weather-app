@@ -19,6 +19,23 @@ THEN I am again presented with current and future conditions for that city
 
 var userhistory = []
 
+function displayforecast()
+
+function fetchWeatherData()
+
+function fetch5DayForecast()
+
+function displayhistory()
+
+// store history
+
+// how to display data?
+
+// day class??????
+
+
+
+
 
 
 // connect api 
